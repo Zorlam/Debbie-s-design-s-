@@ -1,0 +1,24 @@
+/* Custom Styles */
+.hero {
+  height: 100vh;
+  background: url('hero.jpg') no-repeat center center/cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.about img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services .border {
+  background: #f8f9fa;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.services .border:hover {
+  background: #e3f2fd;
+  transform: translateY(-5px);
+}
